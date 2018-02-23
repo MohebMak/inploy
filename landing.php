@@ -46,9 +46,9 @@
       <div class="col-lg-5">
         <small style="color: #ea4456;">Category</small>
         <div class="input-group" style="margin-top: 20px;width: 600px">
-          <input type="text" class="form-control" placeholder="" style="font-size: 18pt;border-radius: 0px;border-right: none">
+          <input type="text" class="form-control" placeholder="Try 'Graphics designers '"  style="font-size: 18pt;border-radius: 0px;">
           <span class="input-group-btn">
-            <button class="btn btn_search_landing" type="button" style="font-size: 18pt;border-radius: 0px"><img src="images/icons/Icon-12.png" width="20"></button>
+
           </span>
           <button class="btn btn_inploy" style="height: 34px;margin-top: 8px !important;">Search</button>
         </div>
@@ -319,7 +319,7 @@
 
         </div>
       </div>
-      
+
     </div>
     <style>
       .filter_btn:hover{
