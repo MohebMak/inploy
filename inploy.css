@@ -76,6 +76,7 @@ a :hover
 .card-content{
     padding-top: 10px!important;
     padding-bottom: 5px!important;
+    margin-top: 20px !important;
 }
 
 .fotter{
@@ -234,7 +235,7 @@ a :hover
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(34,34,34,0.2);
     border: none;
-
+margin-top: 20px ;
 }
 .contact_info{
     font-size: 12pt;
@@ -408,12 +409,21 @@ a :hover
     font-family: font2;
     color: #ea4456;
 }
-
+.freelance-Category
+{
+  font-family: font3 !important;
+  font-weight: bold;
+  color: #ea4456;
+}
+.margin-bottom
+{
+  margin-bottom: 10px;
+}
 .btn_skills{
     margin-top: 10px;
     padding: 5px 30px;
     box-shadow: 0px 0px 10px rgba(34,34,34,0.2);
-    background-color: #F9F9F9;
+    background-color: white;
     color: #20344d;
     border-radius: 15px;
     font-family: font3;

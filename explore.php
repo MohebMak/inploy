@@ -93,7 +93,7 @@
         if(id == 'briefs_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
-          document.getElementById('briefs').style.display = "";
+          document.getElementById('briefs').style.display = "block";
           document.getElementById('budget').style.display = "block";
           document.getElementById('Create_breif_btn').style.display = "block";
 
@@ -718,10 +718,10 @@
 
           </a>
     </div>
+</div>
+</div>
 
-    <div class="" id="briefs" style="margin-top: 20px;display: none;">
-
-      <div class="row" id="briefs" style="margin-top: 20px;">
+      <div class="row" id="briefs" style="margin-top: 20px;display:none;">
 
       <div class="col-md-1">
       </div>
@@ -901,7 +901,6 @@
         </div>
       </a>
     </div>
-</div>
     <script>
       function open_project() {
         var open_project = document.getElementById('open_project').style.display;
@@ -922,8 +921,8 @@
 
 
 
-
-
+</div>
+</div>
 
 
 

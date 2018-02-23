@@ -49,17 +49,15 @@
             <div class="col-lg-12">
               <p class="content_header" style="float: left">Ratings</p>
             </div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-            <div class="col-lg-4">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-
-
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
+            <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
 
 
 

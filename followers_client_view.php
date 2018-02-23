@@ -42,7 +42,8 @@
 
     <div class="col-lg-12">
       <div class="card jobs_card">
-        <div class="card-block" style="padding: 20px">
+
+        <div class="  card-block" style="padding: 20px">
           <div class="row">
             <div class="col-lg-4">
               <img src="user.jpg" class="img-fluid rounded-circle jobs_card_img" width="80" >
@@ -72,9 +73,10 @@
 
           </div>
         </div>
+</div>
+        <div class="card jobs_card">
 
-        <div style="border-top: 1px solid rgba(0,0,0,0.1)"></div>
-        <div class="card-block" style="padding: 20px">
+        <div class=" card-block" style="padding: 20px">
           <div class="row">
             <div class="col-lg-4">
               <img src="user.jpg" class="img-fluid rounded-circle jobs_card_img" width="80" >
@@ -96,7 +98,7 @@
               <div class="jobs_card_button">
                 <button class="btn btn_open_project">View Profile</button>
               </div>
-              
+
 
             </div>
 
@@ -104,7 +106,7 @@
 
           </div>
         </div>
-
+</div>
       </div>
 
 

@@ -16,7 +16,7 @@
         <p class="user_name" style="margin-bottom: 5px;">Company<img src="images/icons/i-17.png" width="20" style="margin-left: 5px"></p>
         <p class="user_review" style="margin-bottom: 10px;"><img src="images/icons/i-18.png" width="90"></p>
 
-        <p class="user_industry">Web & App Development</p>
+        <p class="user_industry freelance-Category">Web & App Development</p>
         <button class=" user_industry dropdown-toggle" style="background-color: transparent;padding-left:0px;border: none;outline: none;" type="button" id="contact_freelancer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contact Jad
         </button>
@@ -148,5 +148,3 @@
 
 
 </div> <!-- /container -->
-
-

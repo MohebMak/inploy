@@ -217,7 +217,7 @@
       </div>
 
     </div>
-  
+
 
     <script>
       function open_filter() {
@@ -674,6 +674,8 @@
 
           </a>
     </div>
+  </div>
+</div>
 
     <div class="" id="briefs" style="margin-top: 20px;display: none;">
 
@@ -888,7 +890,7 @@
 
 
 
-
+</div>
   <br><br><br><br><br><br><br><br><br><br>
 
 
