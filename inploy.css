@@ -19,8 +19,7 @@
 }
 
 body{
-    background-image: linear-gradient(180deg,#f1f1f1,#ffffff);
-    border: 20px solid #fff;
+    background-image: linear-gradient(#f1f1f1,#ffffff,#f1f1f1);
     padding-top: 20px;
 }
 
@@ -625,18 +624,3 @@ body{
     color: #fff;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -44,7 +44,6 @@
     </div>
     <div class="row">
       <div class="col-lg-5">
-        <small style="color: #ea4456;">Category</small>
         <div class="input-group" style="margin-top: 20px;width: 600px">
           <input type="text" class="form-control" placeholder="Try 'Graphics designers '"  style="font-size: 18pt;border-radius: 0px;">
           <span class="input-group-btn">
@@ -52,7 +51,7 @@
           </span>
           <button class="btn btn_inploy" style="height: 34px;margin-top: 8px !important;">Search</button>
         </div>
-        <small style="color: #ea4456;">View all categories</small>
+        <a style="color: #ea4456;" href="services.php">View all categories</a>
       </div>
 
     </div>
@@ -83,7 +82,7 @@
       </div>
       <div class="col-md-2">
         <button onclick="change_view(this.id)" id="freelancers_btn" class="btn btn_user_profile">
-          Freelancers
+          Inployee's
         </button>
 
       </div>
@@ -134,81 +133,15 @@
 
       <div class="col-lg-12">
         <div  class="filter_btn">
-          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt">Filter</p>
+          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt;    color: #ea4456;">Filter</p>
         </div>
         <div id="filter" style="display: none">
-          <div class="row">
-            <div class="col-lg-3">
-              <p style="font-family: font5">User Type</p>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
 
-
-
-
-
-            </div>
-            <div class="col-lg-6">
-              <p style="font-family: font5">Services</p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-            </div>
-            <div class="col-lg-3">
-
-              <p style="font-family: font5">Budget</p>
-
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;font-family: font5">Verified</span>
-                </label>
-              </div>
-
-
-            </div>
-
-          </div>
           <div class="row" style="margin-top: 20px">
             <div class="col-lg-12">
-              <p style="font-family: font5">Skills</p>
+              <p style="font-family: font5">Sub Categories</p>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
 
               <div class="form-check">
                 <label class="form-check-label">
@@ -220,46 +153,29 @@
                   <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
                 </label>
               </div>
-
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
 
 
 
 
             </div>
-            <div class="col-lg-2">
+
+            <div class="col-lg-4">
+
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                </label>
+              </div>
+
+
+
+            </div>
+            <div class="col-lg-4">
 
               <div class="form-check">
                 <label class="form-check-label">
@@ -277,36 +193,7 @@
 
 
             </div>
-            <div class="col-lg-2">
 
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
 
 
 
@@ -376,6 +263,7 @@
         </div>
 
       </div>
+
       <div class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
@@ -475,7 +363,6 @@
         </div>
 
       </div>
-
       <div class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
@@ -484,7 +371,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -517,7 +404,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -550,7 +437,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -583,7 +470,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -608,7 +495,6 @@
         </div>
 
       </div>
-
 
 
 
