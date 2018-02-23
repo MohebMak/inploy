@@ -69,10 +69,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-              <div class="jobs_card_info">
-                <p class="jobs_card_info_desc"><span class="jobs_card_info_title">Work:</span>Design a logo</p>
-                <p class="jobs_card_info_desc"><span class="jobs_card_info_title">Requested:</span>Freelancer</p>
-              </div>
+            
             </div>
             <div class="col-lg-1">
               <p style="font-family: font2">To:</p>

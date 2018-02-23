@@ -19,8 +19,8 @@
 <!--        if condition based on rate-->
 <p class="user_industry freelance-Category">Graphic Designer</p>
 
-        <p class="user_industry">Work per <span style="color: #ea4456">Project</span></p>
-        <p class="user_industry">Work per <span style="color: #ea4456">Hour / 100 EGP</span></p>
+        <p class="user_industry">Works <span style="color: #ea4456">Project</span></p>
+        <p class="user_industry">Works  <span style="color: #ea4456">Hour / 100 EGP</span></p>
 
 
         <button class=" user_industry dropdown-toggle" style="background-color: transparent;padding-left:0px;border: none;outline: none;" type="button" id="contact_freelancer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

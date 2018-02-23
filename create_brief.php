@@ -69,10 +69,7 @@
               </div>
             </div>
             <div class="col-lg-5">
-              <div class="jobs_card_info">
-                <p class="jobs_card_info_desc"><span class="jobs_card_info_title">Work:</span>Design a logo</p>
-                <p class="jobs_card_info_desc"><span class="jobs_card_info_title">Requested:</span>Freelancer</p>
-              </div>
+
             </div>
             <div class="col-lg-3">
 
@@ -240,7 +237,7 @@
         <div class="card-block card-content" style="padding: 20px">
           <div class="row brief-content">
             <div class="col-lg-12">
-              <img onclick="boost()" class="inspiration" src="images/icons/Icon-22.png" width="100" height="100" style="margin-left: 0px">
+              <img onclick="boost()" class="inspiration" src="images/icons/Icon-22.png" width="100" height="100" style="margin-left: 0px;  cursor: pointer;">
               <p class="header" style="margin-top: 30px;font-size: 17pt;margin-left: 25px">
                 Boost your brief
               </p>
@@ -250,8 +247,13 @@
                 <p class="header" style="margin-top: 10px;font-size: 17pt;margin-left: 25px">
                   Choose your package
                 </p>
-                <p style="margin-left: 25px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <p style="margin-left: 25px;    color: #ea4456;">Reach more applicants by having your brief appear first in explore.</p>
+                <p style="font-family: font2;margin-left:25px;">Category: <span style="font-family: font3">Graphic Design</span></p>
 
+                <p class="content_header"style="font-family: font2; margin-left:25px;">Subcategories:</p>
+
+                <div class="clearfix"></div>
+                <small style="font-family: font2;color:#ea4456;margin-left:25px;">each subcategory costs 20 EGP extra</small>
 
                   <div class="row" style="padding: 45px">
                     <div class="col-lg-2" style="padding-top: 20px">

@@ -37,7 +37,7 @@
       <div class="user_info">
         <p class="user_name">Mohamed<img src="images/icons/Icon-01.png" width="20" style="margin-left: 5px"></p>
         <p class="user_review"><img src="reviews.png" width="90"></p>
-        <p class="user_industry">Work per <span style="color: #ea4456">Project</span></p>
+        <p class="user_industry">Works <span style="color: #ea4456">Project</span></p>
         <p class="user_industry">Graphic Designer</p>
 
 
@@ -53,7 +53,7 @@
         <p class="user_industry">Report User</p>
 
       </div>
-      
+
     </div>
   </div>
 
