@@ -30,12 +30,21 @@ body{
 .search.placeholder{
   text-align: center !important;
 }
+
 #Create_breif_btn
 {
   text-align: center;
 margin-top: 30px;
 margin-left: 20px;
 display: none;
+}
+.create-breif-explore
+{
+  margin-left: 70px !important;
+}
+a :hover
+{
+    cursor: pointer;
 }
 #budget
 {

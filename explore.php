@@ -48,7 +48,12 @@
         </form>
 
     <div class="row" style="">
-      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <div  id="Create_breif_btn" class="create-breif-explore" >
+          <img onclick=""  src="images/icons/Create_breif-19.png" width="40px">
+        </div>
+
+      </div>
 
       <div class="col-md-2">
         <button onclick="change_view(this.id)" id="briefs_btn" class="btn btn_user_profile">
@@ -90,6 +95,7 @@
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "";
           document.getElementById('budget').style.display = "block";
+          document.getElementById('Create_breif_btn').style.display = "block";
 
 
         }else if(id == 'groups_btn'){
@@ -97,12 +103,16 @@
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('budget').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "none";
+
 
         }else if(id == 'clients_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
           document.getElementById('budget').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "none";
+
 
         }else if(id == "freelancers_btn"){
 
@@ -110,6 +120,8 @@
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
           document.getElementById('budget').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "none";
+
 
 
         }
@@ -267,7 +279,7 @@
 
 
 
-      <div class="col-lg-3">
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -299,8 +311,9 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -332,8 +345,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -365,8 +378,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -398,9 +411,8 @@
           </div>
         </div>
 
-      </div>
-
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -408,8 +420,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
-">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -433,8 +444,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -442,8 +453,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
-">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -467,8 +477,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -476,8 +486,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
-">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -501,8 +510,8 @@
           </div>
         </div>
 
-      </div>
-      <div class="col-lg-3">
+      </a>
+      <a class="col-lg-3">
         <div class="card explore_card" style="margin-top: 20px">
           <div class="card-block" style="padding: 10px">
 
@@ -510,8 +519,7 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;    border: 10px solid #ffffff;
-">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -535,8 +543,7 @@
           </div>
         </div>
 
-      </div>
-
+      </a>
 
 
 
@@ -550,7 +557,7 @@
       <div class="col-lg-10">
         <div class="row" style="margin-top: 20px">
 
-          <div class="col-lg-3">
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -569,8 +576,8 @@
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -581,16 +588,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -601,16 +608,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -621,17 +628,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -642,16 +648,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -662,16 +668,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -682,16 +688,16 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-          <div class="col-lg-3">
+          </a>
+          <a class="col-lg-3">
             <div class="card explore_card_2" style="margin-top: 20px">
               <div class="card-block" style="padding: 10px">
 
@@ -702,25 +708,24 @@
                 <center>
                   <img src="user.jpg" class="rounded-circle" style="" width="80">
                   <p class="jobs_card_info_name" style="margin-top: 10px">Name</p>
-                  <img src="reviews.png" width="80">
+                  <img src="images/icons/i-18.png" width="80">
                   <div class="clearfix"></div>
-                  <button class="btn btn_open_explore">Full view</button>
+<!--                  <button class="btn btn_open_explore">Full view</button>-->
                 </center>
 
               </div>
             </div>
 
-          </div>
-
-
-        </div>
-      </div>
+          </a>
     </div>
 
-    <div class="row" id="briefs" style="margin-top: 20px;display: none;">
+    <div class="" id="briefs" style="margin-top: 20px;display: none;">
+
+      <div class="row" id="briefs" style="margin-top: 20px;">
+
       <div class="col-md-1">
       </div>
-      <div class="col-lg-10">
+      <a class="col-lg-12">
         <div class="card jobs_card">
           <div class="card-block" style="padding: 20px">
             <div class="row">
@@ -894,10 +899,9 @@
 
 
         </div>
-      </div>
+      </a>
     </div>
-
-
+</div>
     <script>
       function open_project() {
         var open_project = document.getElementById('open_project').style.display;

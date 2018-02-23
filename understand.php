@@ -98,11 +98,11 @@
 
       }
     </script>
-    
+
     <div class="row" style=" margin-top: 10px">
 
 
-      
+
     </div>
     <style>
       .filter_btn:hover{
@@ -136,17 +136,19 @@
       </div>
 
       <div class="row" style="margin-top: 20px">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
+</div>
+        <div class="col-lg-2">
 
           <center>
-            <img src="images/icons/understand/earnings.png" width="70%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/earnings.png"  style="margin-bottom: 10px" width="100%">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
 
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <center>
-          <img src="images/icons/understand/free2.png" width="70%" style="margin-bottom: 10px">
+          <img src="images/icons/understand/free2.png" width="100%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
 
 
@@ -154,18 +156,20 @@
           </center>
 
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <center>
-          <img src="images/icons/understand/reach.png" width="70%" style="margin-bottom: 10px">
+          <img src="images/icons/understand/reach.png" width="100%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
           <center>
-          <img src="images/icons/understand/follow2.png" width="70%" style="margin-bottom: 10px">
+          <img src="images/icons/understand/follow2.png" width="100%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
+        <div class="col-lg-2">
+</div>
       </div>
 
 
@@ -202,7 +206,7 @@ How It Works
         </div>
         <div class="col-lg-2">
           <center>
-            <img src="images/icons/understand/boost.png" width="100%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/boost-profile.png" width="100%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
@@ -275,7 +279,7 @@ How It Works
         </div>
         <div class="col-lg-3">
           <center>
-            <img src="images/icons/understand/boost.png" width="70%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/boost-brief.png" width="70%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
@@ -294,19 +298,17 @@ Feel Safe With Inploy
       </div>
 
       <div class="row" style="margin-top: 20px">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
 
           <center>
-            <img src="images/icons/understand/verified.png" width="100%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/verified.png" width="70%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
 
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <center>
-            <img src="images/icons/understand/rate2.png" width="100%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/rate2.png" width="70%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
 
 
@@ -314,10 +316,9 @@ Feel Safe With Inploy
           </center>
 
         </div>
-        <div class="col-lg-1"></div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <center>
-            <img src="images/icons/understand/grow.png" width="100%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/grow-database.png" width="70%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
