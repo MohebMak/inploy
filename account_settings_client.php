@@ -49,16 +49,13 @@
         </div>
 
 
+  <div class="row" style="margin-top: 20px;    width: 100%;">
 
-  </div>
-  <p style="font-family: font2;font-size: 16pt">
-    Contact Information
-  </p>
+    <div class="col-lg-6">
+      <p style="font-family: font2;font-size: 16pt">
+        Your Information
+      </p>
 
-
-  <div class="row" style="margin-top: 20px">
-
-    <div class="col-lg-12">
       <div class="" style="font-family: font2">
 
         <label style="float: none" class="label_settings">Account Code</label>: <span style="font-size: 16pt;margin-left: 20px">#56HGSAHD</span>
@@ -132,27 +129,6 @@
         </div>
 
         <div class="row" style="margin-top: 30px">
-          <div class="col-lg-6">
-            <p style="font-family: font2;font-size: 26pt">
-              Contact Information
-            </p>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me when a new service provider applies</span>
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me when Inploy recommends a freelancer</span>
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me with a receipt when I make any purchases on Inploy</span>
-              </label>
-            </div>
-
-          </div>
 
         </div>
         <label style="float: none;text-decoration: underline;margin-top: 20px;font-size: 16pt" class="label_settings">Delete</label>
@@ -175,6 +151,32 @@
 
 
     </div>
+
+
+        <div class="col-lg-6">
+              <p style="font-family: font2;font-size: 26pt">
+    Notification Settings            </p>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me when a new service provider applies</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me when Inploy recommends a freelancer</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;color: #ea4456">Notify me with a receipt when I make any purchases on Inploy</span>
+                </label>
+              </div>
+
+            </div>
+
+      </div>
+
+
   </div>
 
 

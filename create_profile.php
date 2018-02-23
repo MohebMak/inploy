@@ -68,11 +68,17 @@
 
 
 
-        <div class="clearfix" style="padding: 20px"></div>
 
-        <label style="float: none" class="label_settings">Job Title</label>
-        <div class="clearfix" style=""></div>
-        <input type="text" class="form-control" placeholder="" style="max-width: 300px;float: left">
+
+
+
+          <div class="clearfix" style=""></div>
+          <div class="form-group">
+            <label style="float: none;" class="label_settings">Profession</label>
+            <textarea style="max-width: 300px" class="form-control" id="exampleTextarea" rows='1'></textarea>
+          </div>
+          <label style="float: none;" class="label_settings">About</label>
+          <textarea style="max-width: 900px" class="form-control" id="exampleTextarea"rows="6" ></textarea>
 
 
 

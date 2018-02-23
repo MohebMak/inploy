@@ -54,6 +54,9 @@
   </div>
   <div style="margin-top: 40px">
     <img src="images/icons/Icon-17.png" width="80"> <span style="font-family: font2;margin-left: 10px">Upload that beautiful face</span>
+    <button class="btn btn-change" style="font-size: 15pt;padding: 10px 20px;margin-left: 0px;display:inline-block;float:none;margin-left:180px;">Get Verified</button>
+
+
   </div>
   <p style="font-family: font2;font-size: 16pt;margin-top: 30px">
     Service Information
@@ -64,6 +67,22 @@
 
     <div class="col-lg-12">
       <div class="" style="font-family: font2">
+
+
+
+
+
+
+
+
+            <div class="clearfix" style=""></div>
+            <div class="form-group">
+              <label style="float: none;" class="label_settings">Profession</label>
+              <textarea style="max-width: 300px" class="form-control" id="exampleTextarea" rows='1'></textarea>
+            </div>
+            <label style="float: none;" class="label_settings">About</label>
+            <textarea style="max-width: 900px" class="form-control" id="exampleTextarea"rows="6" ></textarea>
+
 
 
 
@@ -249,12 +268,7 @@
           <option>Per Project</option>
         </select>
 
-        <div class="clearfix" style="padding: 20px"></div>
-
-        <div class="clearfix" style="padding: 20px"></div>
-        <button class="btn btn-change" style="font-size: 15pt;padding: 10px 20px;margin-left: 0px">Get Verified</button>
-
-
+      
 
         <div class="clearfix" style="padding: 20px"></div>
         <p style="font-family: font2;font-size: 16pt;margin-top: 30px">

@@ -74,7 +74,9 @@
           <label style="float: none" class="label_settings">Edit Description</label>
           <textarea style="" class="form-control" id="exampleTextarea" rows="4"></textarea>
         </div>
-
+        <label style="float: none" class="label_settings">Project year</label>
+        <div class="clearfix" style=""></div>
+        <input type="text" class="form-control" placeholder="" style="max-width: 300px;float: left">
 
 
 
@@ -165,6 +167,8 @@
     </div>
 
   </div>
+  <div class="clearfix" style="padding: 20px"></div>
+  <button class="btn btn-change_2" id= "add_project"style="font-size: 15pt;padding: 10px 20px">Add new project</button>
 
   <div class="clearfix" style="padding: 20px"></div>
   <button class="btn btn-change_2" style="font-size: 15pt;padding: 10px 20px">Save</button>
@@ -175,7 +179,19 @@
 
 
   <br><br><br><br><br><br><br><br><br><br>
+<script>
+document.getElementById("add_project").onclick = function () {
+    var div = document.createElement('div');
+       div.style.backgroundColor = "black";
+       div.style.position = "absolute";
+       div.style.left = "50px";
+       div.style.top = "50px";
+       div.style.height = "10px";
+       div.style.width = "10px";
 
+       document.getElementsByTagName('row')[2].appendChild(div);
+};
+</script>
 
   <?php include_once ('fotter.php');?>
 

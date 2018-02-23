@@ -40,19 +40,16 @@
 
 
 
-        <div style="width: 100%" class="text-center">
-          <center style="display: inline-block">
-            <p class="header text-center" >
-              Account Settings
-            </p>
-          </center>
+        <div style="width: 100%;     margin-left: 12px;" >
+            <p class="header" >
+Get Verified            </p>
         </div>
 
 
 
   </div>
   <p style="font-family: font2;font-size: 16pt">
-    Contact Information
+    Verify your portofolio to assure clients that this is your work.
   </p>
 
 

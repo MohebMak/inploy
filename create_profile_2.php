@@ -68,9 +68,12 @@
 
         <div class="clearfix" style=""></div>
         <div class="form-group">
-          <label style="float: none" class="label_settings">About</label>
-          <textarea style="max-width: 900px" class="form-control" id="exampleTextarea" rows="6"></textarea>
+          <label style="float: none;font-family:font3;" class="label_settings">Profession</label>
+          <textarea style="max-width: 300px" class="form-control" id="exampleTextarea" rows='1'></textarea>
         </div>
+        <label style="float: none;font-family:font3;" class="label_settings">About</label>
+        <textarea style="max-width: 900px" class="form-control" id="exampleTextarea"rows="6" ></textarea>
+      </div>
 
 
 
@@ -79,7 +82,7 @@
           <div class="form-group" >
 
             <div class="form-group">
-              <label style="float: none" class="label_settings">Categories</label>
+              <label style="float: none" class="label_settings">Categories your Interested in</label>
               <select  onchange="add_category_4()" class="form-control" id="user_input_4" style="max-width: 300px">
                 <option disabled selected>Choose Categories</option>
                 <option>2</option>
@@ -134,7 +137,7 @@
           <div class="form-group" >
 
             <div class="form-group">
-              <label style="float: none" class="label_settings">Subcategories</label>
+              <label style="float: none" class="label_settings">Subcategories  your Interested in</label>
               <select onchange="add_subcategory_5()" class="form-control" id="user_input_5" style="max-width: 300px">
                 <option disabled selected>Choose Subcategories</option>
                 <option>2</option>
@@ -235,7 +238,7 @@
 
 
 
-        
+
 
         <div class="clearfix" style="padding: 20px"></div>
         <button class="btn btn-change_2" style="font-size: 15pt;padding: 10px 20px">Save</button>
