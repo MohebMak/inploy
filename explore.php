@@ -89,22 +89,27 @@
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "";
+          document.getElementById('budget').style.display = "block";
+
 
         }else if(id == 'groups_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "none";
+          document.getElementById('budget').style.display = "none";
 
         }else if(id == 'clients_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
+          document.getElementById('budget').style.display = "none";
 
         }else if(id == "freelancers_btn"){
 
           document.getElementById('freelancers').style.display = "";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
+          document.getElementById('budget').style.display = "none";
 
 
         }
@@ -124,28 +129,11 @@
 
       <div class="col-lg-12">
         <div  class="filter_btn">
-          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt">Filter</p>
+          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt;    color: #ea4456;">Filter</p>
         </div>
         <div id="filter" style="display: none">
           <div class="row">
-            <div class="col-lg-3">
-              <p style="font-family: font5">User Type</p>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
 
-
-
-
-
-            </div>
             <div class="col-lg-6">
               <p style="font-family: font5">Services</p>
               <div class="row">
@@ -179,26 +167,26 @@
 
 
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 " id="budget">
 
               <p style="font-family: font5">Budget</p>
 
 
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;font-family: font5">Verified</span>
-                </label>
-              </div>
+
 
 
             </div>
-
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;font-family: font5">Verified Only</span>
+              </label>
+            </div>
           </div>
           <div class="row" style="margin-top: 20px">
             <div class="col-lg-12">
-              <p style="font-family: font5">Skills</p>
+              <p style="font-family: font5">Sub Categories</p>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
 
               <div class="form-check">
                 <label class="form-check-label">
@@ -210,46 +198,28 @@
                   <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
                 </label>
               </div>
-
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
 
 
 
 
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
+
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                </label>
+              </div>
+
+
+
+            </div>
+            <div class="col-lg-4">
 
               <div class="form-check">
                 <label class="form-check-label">
@@ -267,43 +237,7 @@
 
 
             </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
             </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
-            </div>
-          </div>
 
 
 
