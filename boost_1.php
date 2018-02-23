@@ -55,14 +55,14 @@
           Boost Profile
         </p>
 
+              <p style="font-family: font2;color:#ea4456;">Get featured on our landing page and skip the line to appear first in explore.</p>
       </div>
 
       <p style="font-family: font2;">Category: <span style="font-family: font3">Graphic Design</span></p>
-      <p class="content_header">Choose Subcategory</p>
-      <input type="text" class="form-control" placeholder="" id="user_input" style="max-width: 300px;float: left;margin-right: 10px">
-      <button onclick="add_user_input()" class="btn btn_inploy" style="float: left;margin-left: 10px;">Add</button>
+      <p class="content_header"style="font-family: font2;">Subcategories:</p>
+
       <div class="clearfix"></div>
-      <small style="font-family: font2;color:#ea4456">each subcategory costs 10 EGP extra</small>
+      <small style="font-family: font2;color:#ea4456">each subcategory costs 20 EGP extra</small>
       <div id="add_user_input_div">
 
       </div>
@@ -104,15 +104,7 @@
         }
       </style>
 
-      <div style="width: 100%">
-
-        <p class="header" style="margin-top: 10px;">
-          Choose Package
-        </p>
-
-      </div>
-
-      <p style="font-family: font2;">Category zdsfdxgchj jg jhxfkaj hfkas dfkjashdkjah dkjash dkjashdkjadjas</p>
+  
 
       <div class="row" style="padding: 45px">
         <div class="col-lg-4" style="padding-top: 20px">

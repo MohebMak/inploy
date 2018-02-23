@@ -30,7 +30,9 @@ body{
 .search.placeholder{
   text-align: center !important;
 }
-
+.filter_btn:hover{
+  cursor: pointer;
+}
 #Create_breif_btn
 {
   text-align: center;
@@ -41,6 +43,10 @@ display: none;
 .create-breif-explore
 {
   margin-left: 70px !important;
+}
+.form-check-label>span
+{
+  font-family:font2;
 }
 a :hover
 {

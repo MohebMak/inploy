@@ -159,11 +159,13 @@
         </div>
 
         <div class="col-lg-4">
-          <p style="font-family: font2;margin-bottom: 0px">Package Choosen</p>
+        </br>
+      </br>
+          <p style="font-family: font3;margin-bottom: 0px">Reciept:</p>
           <a class="small_href" href="boost_1.php"><small style="font-family: font2;color: #ea4456;"></small></a>
-          <p style="font-family: font2;"><span style="font-family: font3">Starter Kit 2 days </span></p>
 
-          <div style="background-color: #fff;padding: 20px;box-shadow: 0px 4px 5px rgba(34,34,34,0.2);margin-top: 70px">
+
+          <div style="background-color: #fff;padding: 20px;box-shadow: 0px 4px 5px rgba(34,34,34,0.2);margin-top: 48px">
 
             <p style="float: left;font-family: font2;">Category</p>
             <p style="float: right;font-family: font2;">100EGP</p>

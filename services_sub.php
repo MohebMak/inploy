@@ -63,495 +63,371 @@
     </p>
     <div class="col-lg-12" style=""></div>
     <div class="clearfix"></div>
-    <div class="row" style=" margin-top: 10px">
+    <div class="row" style=" margin-top: 10px ;width:100%;">
 
       <div class="col-lg-12">
-        <div  class="filter_btn">
-          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt">Filter</p>
-        </div>
-        <div id="filter" style="display: none">
-          <div class="row">
-            <div class="col-lg-3">
-              <p style="font-family: font5">User Type</p>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
+
+              <div  class="filter_btn">
+                <p onclick="open_filter()" style="font-family: font5;font-size: 14pt;    color: #ea4456;">Filter</p>
               </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
+              <div id="filter" style="display: block">
 
-
-
-
-
-            </div>
-            <div class="col-lg-6">
-              <p style="font-family: font5">Services</p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-lg-12">
+                    <p style="font-family: font5">Sub Categories</p>
                   </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
+                  <div class="col-lg-4">
+
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+
+
+
+
+                  </div>
+
+                  <div class="col-lg-4">
+
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+
+
+
+                  </div>
+                  <div class="col-lg-4">
+
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
+                      </label>
+                    </div>
+
+
+
+
+
+                  </div>
+
+
+
+
+
+
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row" id="freelancers" style="margin-top: 40px;">
+
+
+
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
+
+
+
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
+
+                      </div>
+
+
+                    </div>
                   </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                    </label>
+
+
+
+
+
+
+                </div>
+              </div>
+
+            </a>
+
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
+
+
+
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
+
+                      </div>
+
+
+                    </div>
                   </div>
+
+
+
+
+
+
                 </div>
               </div>
 
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-            </div>
-            <div class="col-lg-3">
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-              <p style="font-family: font5">Budget</p>
-
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px;font-family: font5">Verified</span>
-                </label>
-              </div>
-
-
-            </div>
-
-          </div>
-          <div class="row" style="margin-top: 20px">
-            <div class="col-lg-12">
-              <p style="font-family: font5">Skills</p>
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
+                      </div>
 
 
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
+                    </div>
+                  </div>
 
 
 
 
 
-            </div>
-            <div class="col-lg-2">
 
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
-            </div>
-            <div class="col-lg-2">
-
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input"><span style="margin-left: 5px">Remember me</span>
-                </label>
-              </div>
-
-
-
-
-
-            </div>
-          </div>
-
-
-
-        </div>
-      </div>
-
-    </div>
-    <script>
-      function open_filter() {
-        var filter = document.getElementById('filter').style.display;
-        if(filter == "none"){
-          document.getElementById('filter').style.display = "block";
-        }else{
-          document.getElementById('filter').style.display = "none";
-        }
-
-      }
-    </script>
-
-
-
-  </div>
-
-  <div class="row" id="freelancers" style="margin-top: 40px;">
-
-
-
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
-
-
-
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
                 </div>
-
               </div>
 
-
-            </div>
-          </div>
-
-
-
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-        </div>
-      </div>
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
+                      </div>
+
+
+                    </div>
+                  </div>
 
 
 
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
+
+
+
                 </div>
-
               </div>
 
-
-            </div>
-          </div>
-
-
-
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-        </div>
-      </div>
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
+                      </div>
+
+
+                    </div>
+                  </div>
 
 
 
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
+
+
+
                 </div>
-
               </div>
 
-
-            </div>
-          </div>
-
-
-
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-        </div>
-      </div>
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
+                      </div>
+
+
+                    </div>
+                  </div>
 
 
 
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
+
+
+
                 </div>
-
               </div>
 
-
-            </div>
-          </div>
-
-
-
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-        </div>
-      </div>
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-    </div>
-
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
+                      </div>
 
 
+                    </div>
+                  </div>
 
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
+
+
+
+
+
                 </div>
-
               </div>
 
-
-            </div>
-          </div>
-
-
-
+            </a>
+            <a class="col-lg-3">
+              <div class="card explore_card" style="margin-top: 20px">
+                <div class="card-block" style="padding: 10px">
 
 
 
-        </div>
-      </div>
+                  <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
+                    <div class="col-6" style="padding-right: 0px">
+                      <img src="user.jpg" class="rounded-circle" style="max-width: 100%;border: 10px solid #edc212;">
+                    </div>
+                    <div class="col-6" style="padding-left: 0px;padding-right: 0px">
+                      <div class="row" style="margin-left: 0px;margin-top: 10px">
+                        <div class="col-lg-9">
+                          <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
+                          <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
+                          <img src="images/icons/i-18.png" width="60">
+                        </div>
 
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
+                      </div>
+
+
+                    </div>
+                  </div>
 
 
 
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
+
+
+
                 </div>
-
               </div>
 
+            </a>
 
-            </div>
+
+
+
+
+
           </div>
 
 
-
-
-
-
-        </div>
-      </div>
-
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
-
-
-
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
-                </div>
-
-              </div>
-
-
-            </div>
+          <div  class="filter_btn" style="text-align:center; margin-top:50px;">
+            <p onclick="" style="font-family: font5;font-size: 14pt;    color: #ea4456;">View All</p>
           </div>
-
-
-
-
-
-
-        </div>
-      </div>
-
-    </div>
-    <div class="col-lg-3">
-      <div class="card explore_card" style="margin-top: 20px">
-        <div class="card-block" style="padding: 10px">
-
-
-
-          <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
-            <div class="col-6" style="padding-right: 0px">
-              <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
-            </div>
-            <div class="col-6" style="padding-left: 0px;padding-right: 0px">
-              <div class="row" style="margin-left: 0px;margin-top: 10px">
-                <div class="col-lg-9">
-                  <p style="margin: 0;padding: 0px;font-family: font5">Mohamed</p>
-                  <p style="margin: 0;font-size: 10pt;padding: 0px">Animator</p>
-                  <img src="images/icons/i-18.png" width="60">
-                </div>
-
-              </div>
-
-
-            </div>
-          </div>
-
-
-
-
-
-
-        </div>
-      </div>
-
-    </div>
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
 
 
 

@@ -217,11 +217,7 @@
       </div>
 
     </div>
-    <style>
-      .filter_btn:hover{
-        cursor: pointer;
-      }
-    </style>
+  
 
     <script>
       function open_filter() {
