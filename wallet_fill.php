@@ -43,7 +43,7 @@
         <div style="width: 100%" class="">
 
             <p class="header " >
-Wallet
+Top up your wallet
             </p>
 
         </div>

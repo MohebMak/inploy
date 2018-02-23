@@ -145,9 +145,9 @@
                 <form>
                     <div class="form-group">
                         <select onchange="change_signup(this.value)" class="form-control" id="type">
-                            <option selected disabled>I am a</option>
-                            <option value="Individual">Freelancer</option>
-                            <option value="Business">Client</option>
+                            <option selected disabled>I am looking to</option>
+                            <option value="Individual">Hire an Inployee</option>
+                            <option value="Business">Work on Inploy</option>
 
                         </select>
                     </div>
@@ -292,7 +292,7 @@
                             }
                         </script>
                     </div>
-                    
+
                     <div id="bus" style="display: none">
                         <div class="form-group" >
 

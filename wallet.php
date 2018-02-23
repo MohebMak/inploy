@@ -75,7 +75,8 @@ Wallet
 
   </div>
   <div class="clearfix" style="padding: 20px;margin-top: -20px;"></div>
-  <button class="btn btn-change_2" style="font-size: 10pt;padding: 10px 20px">Change Your Wallet</button>
+  <button class="btn btn-change_2" style="font-size: 10pt;padding: 10px 20px">Top up your wallet
+</button>
   <div class="clearfix" style="padding: 20px"></div>
   <p style="font-family: font2;font-size: 16pt">
     History
