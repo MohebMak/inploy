@@ -31,7 +31,7 @@
   <!-- Example row of columns -->
 
   <!--main profile buttons-->
-  
+
 
 
 
@@ -128,14 +128,14 @@
 
 
 
-        
-        
 
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
 
       </div>
     </div>

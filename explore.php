@@ -42,6 +42,11 @@
     <center>
       <p class="main_header" style="margin-top: 10px;margin-bottom: 30px">Explore</p>
     </center>
+        <form class="form-inline my-2 my-lg-0 search_form" >
+            <input class="form-control nav_bar_search search" type="text" placeholder="Try 'Graphic Designers'" aria-label="Search" style="margin:auto;    width: 30%;
+">
+        </form>
+
     <div class="row" style="">
       <div class="col-md-2"></div>
 
@@ -68,7 +73,7 @@
       </div>
       <div class="col-md-2">
         <button onclick="change_view(this.id)" id="freelancers_btn" class="btn btn_user_profile">
-          Freelancers
+          Inployee's
         </button>
 
       </div>
@@ -114,7 +119,7 @@
 
       }
     </script>
-    
+
     <div class="row" style=" margin-top: 10px">
 
       <div class="col-lg-12">
@@ -304,7 +309,7 @@
 
         </div>
       </div>
-      
+
     </div>
     <style>
       .filter_btn:hover{
@@ -469,7 +474,8 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
+">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -502,7 +508,8 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
+">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -535,7 +542,8 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;     border: 10px solid #ffffff;
+">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">
@@ -568,7 +576,8 @@
 
             <div class="row" style="padding: 0px 10px;margin-bottom: 5px">
               <div class="col-6" style="padding-right: 0px">
-                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;">
+                <img src="user.jpg" class="rounded-circle" style="max-width: 100%;    border: 10px solid #ffffff;
+">
               </div>
               <div class="col-6" style="padding-left: 0px;padding-right: 0px">
                 <div class="row" style="margin-left: 0px;margin-top: 10px">

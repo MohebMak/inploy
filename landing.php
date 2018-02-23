@@ -85,6 +85,10 @@
           Inployee's
         </button>
 
+
+      </div>
+      <div  id="Create_breif_btn" >
+        <img onclick=""  src="images/icons/Create_breif-19.png" width="40px">
       </div>
 
 
@@ -98,22 +102,26 @@
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "";
+          document.getElementById('Create_breif_btn').style.display = "block";
 
         }else if(id == 'groups_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "none";
 
         }else if(id == 'clients_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
+          document.getElementById('Create_breif_btn').style.display = "none";
 
         }else if(id == "freelancers_btn"){
 
           document.getElementById('freelancers').style.display = "";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
+          document.getElementById('Create_breif_btn').style.display = "none";
 
 
         }
@@ -128,6 +136,7 @@
 
       }
     </script>
+
     <p class="main_header" style="margin-top: 40px">Graphic Designers</p>
     <div class="row" style=" margin-top: 10px">
 
@@ -675,10 +684,13 @@
       </div>
     </div>
 
-    <div class="row" id="briefs" style="margin-top: 20px;display: none;">
+    <div class="" id="briefs" style="margin-top: 20px;display: none;">
+
+      <div class="row" id="briefs" style="margin-top: 20px;">
+
       <div class="col-md-1">
       </div>
-      <div class="col-lg-10">
+      <div class="col-lg-12">
         <div class="card jobs_card">
           <div class="card-block" style="padding: 20px">
             <div class="row">
@@ -854,8 +866,10 @@
         </div>
       </div>
     </div>
-
-
+</div>
+    <div  class="filter_btn" style="text-align:center; margin-top:50px;">
+      <p onclick="" style="font-family: font5;font-size: 14pt;    color: #ea4456;">View All</p>
+    </div>
     <script>
       function open_project() {
         var open_project = document.getElementById('open_project').style.display;
