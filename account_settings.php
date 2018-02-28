@@ -115,24 +115,34 @@
 
 
         <label style="float: none" class="label_settings">User Type</label>
-        <div class="row">
+        <div class="slider-client-freelancers2 " id="Inployees-selected">
 
-          <div class="clearfix"></div>
-          <div class="col-md-1">
-            <a href="jobs_posted_client_view.php" style="font-size: 10pt" class="btn btn-change_2">
-              Freelancer
-            </a>
-
-          </div>
-
-          <div class="col-md-1">
-            <a href="followers_client_view.php" class="btn btn-change">
-              Client
-            </a>
-
-          </div>
+        <button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
+        <button onclick="function22()"id="slider-freelancers"type="button" name="button">Client</button>
         </div>
 
+        <script type="text/javascript">
+
+
+        function function11() {
+            document.getElementById('slider-client').style.color = "#ea4456";
+            document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
+
+            document.getElementById('slider-freelancers').style.color = "black";
+              document.getElementById('slider-freelancers').style.boxShadow = "none";
+        }
+          function function22() {
+              document.getElementById('slider-client').style.color = "black";
+              document.getElementById('slider-client').style.boxShadow = "none";
+
+              document.getElementById('slider-freelancers').style.color = "#ea4456";
+              document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
+
+            }
+
+
+
+        </script>
 
         <label style="float: none;text-decoration: underline;margin-top: 20px;font-size: 16pt" class="label_settings">Delete</label>
 

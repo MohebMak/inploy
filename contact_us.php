@@ -86,34 +86,36 @@ Let's Talk
 
 
         <label style="float: none" class="label_settings">How would you like us to contact you back</label>
-        <div class="row">
+      
 
-          <div class="clearfix"></div>
-          <div class="col-md-1">
-            <a href="jobs_posted_client_view.php" style="font-size: 10pt" class="btn btn-change_2">
-              Email
-            </a>
+        <div class="slider-client-freelancers3 " id="Inployees-selected">
 
-          </div>
-
-          <div class="col-md-1">
-            <a href="followers_client_view.php" class="btn btn-change">
-              Phone
-            </a>
-
-          </div>
+        <button onclick="function11()"id="slider-client" type="button" name="button">Email</button>
+        <button onclick="function22()"id="slider-freelancers"type="button" name="button">Phone</button>
         </div>
 
-        <label style="float: none;margin-top: 20px" class="label_settings">Email</label>
-        <div class="clearfix" style=""></div>
-        <input type="text" class="form-control" placeholder="sha3er@aucegypt.edu" style="max-width: 300px;float: left">
-        <div class="clearfix"></div>
-        <label style="float: none;margin-top: 20px" class="label_settings">Phone Numver</label>
-        <div class="clearfix" style=""></div>
-        <input type="text" class="form-control" placeholder="" style="max-width: 300px;float: left">
+        <script type="text/javascript">
+
+
+        function function11() {
+            document.getElementById('slider-client').style.color = "#ea4456";
+            document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
+
+            document.getElementById('slider-freelancers').style.color = "black";
+              document.getElementById('slider-freelancers').style.boxShadow = "none";
+        }
+          function function22() {
+              document.getElementById('slider-client').style.color = "black";
+              document.getElementById('slider-client').style.boxShadow = "none";
+
+              document.getElementById('slider-freelancers').style.color = "#ea4456";
+              document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
+
+            }
 
 
 
+        </script>
         <div class="clearfix" style="padding: 20px"></div>
         <button class="btn btn-change_2" style="font-size: 15pt;padding: 10px 20px">Send</button>
 

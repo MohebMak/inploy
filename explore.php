@@ -86,6 +86,21 @@
 
 
     </div>
+    <div class="slider-client-freelancers " id="Inployees-selected">
+
+    <button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
+    <button onclick="function22()"id="slider-freelancers"type="button" name="button">Business</button>
+    </div>
+    <div class="slider-client-freelancers" id="clients-selected">
+
+    <button onclick="function11()"id="slider-client1" type="button" name="button">Individuals</button>
+    <button onclick="function22()"id="slider-freelancers1"type="button" name="button">Businesses</button>
+    </div>
+    <div class="slider-client-freelancers" id="briefs-selected">
+
+    <button onclick="function11()"id="slider-client2" type="button" name="button">Individuals</button>
+    <button onclick="function22()"id="slider-freelancers2"type="button" name="button">Businesses</button>
+    </div>
 
     <script>
       function change_view(id) {
@@ -96,6 +111,9 @@
           document.getElementById('briefs').style.display = "block";
           document.getElementById('budget').style.display = "block";
           document.getElementById('Create_breif_btn').style.display = "block";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "block";
 
 
         }else if(id == 'groups_btn'){
@@ -104,6 +122,9 @@
           document.getElementById('briefs').style.display = "none";
           document.getElementById('budget').style.display = "none";
           document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "none";
 
 
         }else if(id == 'clients_btn'){
@@ -112,6 +133,9 @@
           document.getElementById('clients').style.display = ""
           document.getElementById('budget').style.display = "none";
           document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "block";
+          document.getElementById('briefs-selected').style.display = "none";
 
 
         }else if(id == "freelancers_btn"){
@@ -121,6 +145,9 @@
           document.getElementById('clients').style.display = "none"
           document.getElementById('budget').style.display = "none";
           document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Inployees-selected').style.display = "block";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "none";
 
 
 
@@ -135,6 +162,48 @@
 
 
       }
+    </script>
+    <script type="text/javascript">
+
+
+    function function11() {
+        document.getElementById('slider-client').style.color = "#ea4456";
+        document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
+
+        document.getElementById('slider-freelancers').style.color = "black";
+          document.getElementById('slider-freelancers').style.boxShadow = "none";
+          document.getElementById('slider-client1').style.color = "#ea4456";
+          document.getElementById('slider-client1').style.boxShadow = "0px 0px 6px gray";
+
+          document.getElementById('slider-freelancers1').style.color = "black";
+            document.getElementById('slider-freelancers1').style.boxShadow = "none";
+            document.getElementById('slider-client2').style.color = "#ea4456";
+            document.getElementById('slider-client2').style.boxShadow = "0px 0px 6px gray";
+
+            document.getElementById('slider-freelancers2').style.color = "black";
+              document.getElementById('slider-freelancers2').style.boxShadow = "none";
+    }
+      function function22() {
+          document.getElementById('slider-client').style.color = "black";
+          document.getElementById('slider-client').style.boxShadow = "none";
+
+          document.getElementById('slider-freelancers').style.color = "#ea4456";
+          document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
+          document.getElementById('slider-client1').style.color = "black";
+          document.getElementById('slider-client1').style.boxShadow = "none";
+
+          document.getElementById('slider-freelancers1').style.color = "#ea4456";
+          document.getElementById('slider-freelancers1').style.boxShadow = "0px 0px 6px gray";
+          document.getElementById('slider-client2').style.color = "black";
+          document.getElementById('slider-client2').style.boxShadow = "none";
+
+          document.getElementById('slider-freelancers2').style.color = "#ea4456";
+          document.getElementById('slider-freelancers2').style.boxShadow = "0px 0px 6px gray";
+
+        }
+
+
+
     </script>
 
     <div class="row" style=" margin-top: 10px">

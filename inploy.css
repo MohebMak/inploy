@@ -725,7 +725,40 @@ margin-top: 20px ;
     position: relative;
     margin-top: 30px;
     margin-bottom: 20px;
-box-shadow: 0px 0px 8px gray;
+box-shadow: 0px 0px 6px gray;
+}
+
+.slider-client-freelancers3{
+    width: 20%;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+box-shadow: 0px 0px 6px gray;
+}
+.slider-client-freelancers2{
+    width: 50%;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+box-shadow: 0px 0px 6px gray;
+}
+#briefs-selected
+{
+  display: none;
+}
+#clients-selected
+{
+  display: none;
 }
 
 #slider-client
@@ -742,12 +775,84 @@ border: none;
 z-index: 100;
 background: transparent;
 outline: none;
-box-shadow: 0px 0px 8px gray;
+box-shadow: 0px 0px 6px gray;
 
 font-size: 18px;
 
 }
 #slider-freelancers
+{
+    height: 100%;
+    width: 55%;
+position: absolute;
+right: 0;
+border: none;
+background: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    outline: none;
+    font-size: 18px;
+
+}
+#slider-client1
+{
+    height: 100%;
+    width: 55%;
+position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ea4456;
+border: none;
+z-index: 100;
+background: transparent;
+outline: none;
+box-shadow: 0px 0px 6px gray;
+
+font-size: 18px;
+
+}
+#slider-freelancers1
+{
+    height: 100%;
+    width: 55%;
+position: absolute;
+right: 0;
+border: none;
+background: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    outline: none;
+    font-size: 18px;
+
+}
+#slider-client2
+{
+    height: 100%;
+    width: 55%;
+position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #ea4456;
+border: none;
+z-index: 100;
+background: transparent;
+outline: none;
+box-shadow: 0px 0px 6px gray;
+
+font-size: 18px;
+
+}
+#slider-freelancers2
 {
     height: 100%;
     width: 55%;

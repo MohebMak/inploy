@@ -111,18 +111,27 @@
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "";
           document.getElementById('Create_breif_btn').style.display = "block";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "block";
 
         }else if(id == 'groups_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('clients').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "none";
 
         }else if(id == 'clients_btn'){
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
           document.getElementById('Create_breif_btn').style.display = "block";
+          document.getElementById('Inployees-selected').style.display = "none";
+          document.getElementById('clients-selected').style.display = "block";
+          document.getElementById('briefs-selected').style.display = "none";
 
         }else if(id == "freelancers_btn"){
 
@@ -130,6 +139,9 @@
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
           document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Inployees-selected').style.display = "block";
+          document.getElementById('clients-selected').style.display = "none";
+          document.getElementById('briefs-selected').style.display = "none";
 
 
         }
@@ -145,7 +157,21 @@
       }
     </script>
 
+    <div class="slider-client-freelancers " id="Inployees-selected">
 
+    <button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
+    <button onclick="function22()"id="slider-freelancers"type="button" name="button">Business</button>
+    </div>
+    <div class="slider-client-freelancers" id="clients-selected">
+
+    <button onclick="function11()"id="slider-client" type="button" name="button">Individuals</button>
+    <button onclick="function22()"id="slider-freelancers"type="button" name="button">Businesses</button>
+    </div>
+    <div class="slider-client-freelancers" id="briefs-selected">
+
+    <button onclick="function11()"id="slider-client" type="button" name="button">Individuals</button>
+    <button onclick="function22()"id="slider-freelancers"type="button" name="button">Businesses</button>
+    </div>
   <div id="myCarousel" class="carousel slide" style="width:30%">
      <!-- Indicators -->
 
@@ -178,21 +204,14 @@ $('#myCarousel').carousel({
   interval: false
 });
 </script>
-<div class="slider-client-freelancers">
 
-<button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
-<button onclick="function22()"id="slider-freelancers"type="button" name="button">Business</button>
-</div>
-<input id="ex12b" type="text"/><br/>
 
 <script type="text/javascript">
-$("#ex12b").bootstrapSlider({
-  min: 0, max: 10,  value: [3, 7]
-});
+
 
 function function11() {
     document.getElementById('slider-client').style.color = "#ea4456";
-    document.getElementById('slider-client').style.boxShadow = "0px 0px 8px gray";
+    document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
 
     document.getElementById('slider-freelancers').style.color = "black";
       document.getElementById('slider-freelancers').style.boxShadow = "none";
@@ -202,7 +221,7 @@ function function11() {
       document.getElementById('slider-client').style.boxShadow = "none";
 
       document.getElementById('slider-freelancers').style.color = "#ea4456";
-      document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 8px gray";
+      document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
 
     }
 
