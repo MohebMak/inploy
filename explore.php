@@ -42,7 +42,7 @@
     <center>
       <p class="main_header" style="margin-top: 10px;margin-bottom: 30px">Explore</p>
     </center>
-        <form class="form-inline my-2 my-lg-0 search_form" >
+        <form class="form-inline my-2 my-lg-0 search_form1" >
             <input class="form-control nav_bar_search search" type="text" placeholder="Try 'Graphic Designers'" aria-label="Search" style="margin:auto;    width: 30%;
 ">
         </form>

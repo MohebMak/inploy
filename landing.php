@@ -142,7 +142,7 @@
 
       <div class="col-lg-12">
         <div  class="filter_btn">
-          <p onclick="open_filter()" style="font-family: font5;font-size: 14pt;    color: #ea4456;">Filter</p>
+          <a onclick="open_filter()" >Filter</a>
         </div>
         <div id="filter" style="display: none">
 

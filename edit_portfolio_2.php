@@ -52,6 +52,8 @@
 
 
   </div>
+  <div id="new_project">
+
   <div class="row" style="margin-top: 20px">
 
     <div class="col-lg-12">
@@ -111,11 +113,11 @@
         <!---->
         <!---->
         <!--        <div class="card-block portfolio_card" style="border-top: 1px solid rgba(0,0,0,.125)">-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
         <!--        </div>-->
       </div>
-      <img src="images/icons/Icon-01.png" width="25" style="position: absolute;top: 0">
+      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: 0">
     </div>
     <div class="col-lg-3">
       <div class="" style="position: relative;padding:10px">
@@ -135,11 +137,11 @@
         <!---->
         <!---->
         <!--        <div class="card-block portfolio_card" style="border-top: 1px solid rgba(0,0,0,.125)">-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
         <!--        </div>-->
       </div>
-      <img src="images/icons/Icon-01.png" width="25" style="position: absolute;top: 0">
+      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: 0">
     </div>
     <div class="col-lg-3">
       <div class="" style="position: relative;padding:10px">
@@ -159,16 +161,17 @@
         <!---->
         <!---->
         <!--        <div class="card-block portfolio_card" style="border-top: 1px solid rgba(0,0,0,.125)">-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
-        <!--          <a href="#0" class="card-link"><img src="images/icons/Icon-01.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
+        <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
         <!--        </div>-->
       </div>
 
     </div>
 
   </div>
+  </div>
   <div class="clearfix" style="padding: 20px"></div>
-  <button class="btn btn-change_2" id= "add_project"style="font-size: 15pt;padding: 10px 20px">Add new project</button>
+  <button onclick="duplicate()"class="btn btn-change_2" id= "add_project"style="font-size: 15pt;padding: 10px 20px">Add new project</button>
 
   <div class="clearfix" style="padding: 20px"></div>
   <button class="btn btn-change_2" style="font-size: 15pt;padding: 10px 20px">Save</button>
@@ -178,18 +181,14 @@
 
 
 
+
   <br><br><br><br><br><br><br><br><br><br>
 <script>
 document.getElementById("add_project").onclick = function () {
-    var div = document.createElement('div');
-       div.style.backgroundColor = "black";
-       div.style.position = "absolute";
-       div.style.left = "50px";
-       div.style.top = "50px";
-       div.style.height = "10px";
-       div.style.width = "10px";
 
-       document.getElementsByTagName('row')[2].appendChild(div);
+  {							$('#new_project').append($('#new_project')											.clone());
+
+   }
 };
 </script>
 

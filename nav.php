@@ -13,12 +13,8 @@
 
         <a class="navbar-brand" href="#">
             <img src="images/icons/Icon-01.png" width="40" style="margin-top: -6px">
-
-
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="border: 1px solid #000;margin-top: -6px">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto" style="margin-top: -6px">
@@ -26,10 +22,11 @@
                     <form class="form-inline my-2 my-lg-0 search_form" >
                         <input class="form-control mr-sm-2 nav_bar_search" type="text" placeholder="Search" aria-label="Search" style="">
                     </form>
+                    <button class="btn nav_btn_understand" data-toggle="modal" data-target="#login">
+                        Understand
+                    </button>
                 </li>
-                <button class="btn nav_btn_understand" data-toggle="modal" data-target="#login">
-                    Understand
-                </button>
+
 <!--                <li class="nav-item">-->
 <!--                    <a class="inploy_nav_icon"><img src="images/icons/Icon-09.png" width="40"></a>-->
 <!--                </li>-->
@@ -41,12 +38,15 @@
 <!--                </li>-->
 
             </ul>
+            <div class="nav-login">
+
             <button class="btn nav_btn" data-toggle="modal" data-target="#login">
                 Log in
             </button>
             <button class="btn nav_btn" data-toggle="modal" data-target="#reg">
                 Sign up
             </button>
+          </div>
 
         </div>
 

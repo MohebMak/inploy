@@ -2,12 +2,31 @@
     margin-top: 5px !important;
     font-family: font3;
     margin-left: 20px;
-
+    display: inline-block;
+width: 70%;
 }
+.search_form>input{
+width: 90% !important;
+margin-left: 0;
+}
+
+
 .inploy_nav_icon{
     padding-left: 5px;
     padding-right: 5px;
 }
+.nav_btn
+{
+  width:40% !important;
+  min-width: 0 !important;
+}
+.container-fluid>.navbar-collapse>.mr-auto>.nav-item
+{
+  width: 100%;
+
+}
+
+
 @media screen and (max-width: 600px)
 {
     .search_form{
@@ -17,6 +36,15 @@
     }
 
 }
+.container-fluid>.collapse>.mr-auto
+{
+width: 60%;
+}
+.nav-login
+{
+  width:30%;
+}
+
 
 body{
     background-image: linear-gradient(#f1f1f1,#ffffff,#f1f1f1);
@@ -32,6 +60,16 @@ body{
 }
 .filter_btn:hover{
   cursor: pointer;
+}
+.filter_btn
+{
+  width: fit-content;
+}
+.filter_btn>a
+{
+  font-family: font5;
+  font-size: 14pt;
+    color: #ea4456 !important;
 }
 #Create_breif_btn
 {
@@ -163,11 +201,12 @@ a :hover
 }
 .nav_btn_understand{
     margin-top: 10px;
-    margin-left: 120px;
+    margin-left: 3%;
     margin-right: 10px;
     padding-top: 3px;
     padding-bottom: 5px;
     min-width: 120px;
+    width: 20%;
     box-shadow: 0px 4px 5px rgba(34,34,34,0.2);
 
     border-radius: 15px;
@@ -662,4 +701,60 @@ margin-top: 20px ;
     border-radius: 15px;
     color: #fff;
     margin-top: 10px;
+}
+
+/* --------------------------------------- */
+.sliders { padding: 15px 0 30px 0; }
+.filter-section .filter-label {
+  display: block;
+  font-weight: bold;
+}
+.bootstrap-slider .slider-selection { background: #2175b0; }
+
+
+@media screen and (min-width:776px) and (max-width:1200px) {
+  .nav_btn {
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  min-width: 120px;
+  box-shadow: 0px 4px 5px rgba(34,34,34,0.2);
+  background-color: #fff;
+  color: #ea4456;
+  border-radius: 15px;
+  font-family: font3;
+}
+.nav_btn_understand {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 0;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    min-width: 0px;
+    width: 30%;
+    box-shadow: 0px 4px 5px rgba(34,34,34,0.2);
+    border-radius: 15px;
+    font-family: font3;
+    background-color: #ea4456;
+    color: #fff;
+}
+.search_form {
+    margin-top: 5px !important;
+    font-family: font3;
+    margin-left: 0;
+    display: inline-block;
+    width: 66%;
+}
+}
+#boost_2
+{
+display: none;
+
+}
+#boost_3
+{
+display: none;
+
 }
