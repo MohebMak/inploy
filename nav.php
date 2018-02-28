@@ -69,9 +69,7 @@
             width:200px !important;
 
         }
-        .search_form{
-            max-width: 50px !important;
-        }
+      
 
     }
 
