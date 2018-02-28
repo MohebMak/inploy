@@ -14,7 +14,8 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
 
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" />
   <title>Inploy</title>
 
   <!-- Bootstrap core CSS -->
@@ -128,7 +129,7 @@
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
-          document.getElementById('Create_breif_btn').style.display = "block";
+          document.getElementById('Create_breif_btn').style.display = "none";
           document.getElementById('Inployees-selected').style.display = "none";
           document.getElementById('clients-selected').style.display = "block";
           document.getElementById('briefs-selected').style.display = "none";
@@ -138,7 +139,7 @@
           document.getElementById('freelancers').style.display = "";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
-          document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "block";
           document.getElementById('Inployees-selected').style.display = "block";
           document.getElementById('clients-selected').style.display = "none";
           document.getElementById('briefs-selected').style.display = "none";
@@ -194,11 +195,14 @@
      <!-- Left and right controls -->
 
      <a class="right carousel-control" href="#myCarousel" data-slide="next" style="     background: transparent;
-    top: 30px;">
-       <span class="glyphicon glyphicon-chevron-right"></span>
+    top: 30px;
+    right: -40px;">
+       <span class="glyphicon glyphicon-chevron-right" ></span>
        <span class="sr-only">Next</span>
      </a>
    </div>
+
+
 <script type="text/javascript">
 $('#myCarousel').carousel({
   interval: false

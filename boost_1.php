@@ -7,6 +7,13 @@
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" />
   <title>Inploy</title>
 
   <!-- Bootstrap core CSS -->
@@ -61,8 +68,8 @@
 
       <p style="font-family: font2;">Category: <span style="font-family: font3">Graphic Design</span></p>
       <p class="content_header"style="font-family: font2;">Subcategories:</p>
-      <div class="clearfix"></div>
-      <small style="font-family: font2;color:#ea4456">each subcategory costs 20 EGP extra</small>
+ <input type="text" value="" data-role="tagsinput" id="tags" class="form-control">
+       <small style="font-family: font2;color:#ea4456; display: block;">each subcategory costs 20 EGP extra</small>
       <div id="add_user_input_div">
 
       </div>
@@ -369,7 +376,6 @@ function function2() {
 
         </div>
         <div class="clearfix"></div>
-        <a onclick="function2()"   class="btn btn-change" style="font-size: 14pt;padding-right: 20px;padding-left: 20px;margin-top: 40px">Pay</a>
 
         <script>
           function change_pay(type) {
@@ -398,7 +404,7 @@ function function2() {
         </script>
 
 
-        <a onclick="function2()" class="btn btn-change" style="font-size: 14pt;padding-right: 20px;padding-left: 20px;margin-top: 40px">Pay</a>
+        <a onclick="function2()" class="btn btn-change" style="font-size: 14pt;padding-right: 20px;padding-left: 20px;margin-top: 40px; color:white;">Pay</a>
 
 
 
@@ -458,7 +464,7 @@ function function2() {
 
       <p style="font-family: font2;">Dear jad</p>
       <p style="font-family: font2;">
-        kjas dkjas dkas dkas dkjas d
+ahujasd
       </p>
 
       <div style="background-color: #fff;padding: 20px;box-shadow: 0px 4px 5px rgba(34,34,34,0.2);margin-top: 30px">

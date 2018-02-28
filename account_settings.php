@@ -101,12 +101,11 @@
         <div class="row">
 
           <div class="clearfix"></div>
-          <div class="col-md-1">
-            <a href="jobs_posted_client_view.php" style="font-size: 10pt" class="btn btn-change_2">
-              Freelancer
-            </a>
+            <div class="slider-client-freelancers2 " id="Inployees-selected">
 
-          </div>
+            <button onclick="function11()"id="slider-client" type="button" name="button">Inployee</button>
+            <button onclick="function22()"id="slider-freelancers"type="button" name="button">Client</button>
+            </div>
 
 
         </div>
@@ -117,8 +116,8 @@
         <label style="float: none" class="label_settings">User Type</label>
         <div class="slider-client-freelancers2 " id="Inployees-selected">
 
-        <button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
-        <button onclick="function22()"id="slider-freelancers"type="button" name="button">Client</button>
+        <button onclick="function1()"id="slider-client1" type="button" name="button">Individual</button>
+        <button onclick="function2()"id="slider-freelancers1"type="button" name="button">Business</button>
         </div>
 
         <script type="text/javascript">
@@ -139,6 +138,21 @@
               document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
 
             }
+            function function1() {
+                document.getElementById('slider-client1').style.color = "#ea4456";
+                document.getElementById('slider-client1').style.boxShadow = "0px 0px 6px gray";
+
+                document.getElementById('slider-freelancers1').style.color = "black";
+                  document.getElementById('slider-freelancers1').style.boxShadow = "none";
+            }
+              function function2() {
+                  document.getElementById('slider-client1').style.color = "black";
+                  document.getElementById('slider-client1').style.boxShadow = "none";
+
+                  document.getElementById('slider-freelancers1').style.color = "#ea4456";
+                  document.getElementById('slider-freelancers1').style.boxShadow = "0px 0px 6px gray";
+
+                }
 
 
 

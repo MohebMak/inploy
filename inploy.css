@@ -929,6 +929,10 @@ display: none;
     width: 200px !important;
     margin-left: 0;
 }
+.carousel
+{
+   width: 65% !important;
+}
   .slider-client-freelancers{
       width: 50%;
       }
@@ -938,3 +942,24 @@ display: none;
           .slider-client-freelancers3{
               width: 40%;
               }}
+
+              .bootstrap-tagsinput .tag [data-role="remove"] {
+                  margin-left: 8px;
+                  cursor: pointer;
+                  color: #ea4456;
+              }
+              .bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: black;
+    box-shadow: 0px 0px 2px gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 6px;
+
+}
+.glyphicon-chevron-right
+{
+  color: black;
+}

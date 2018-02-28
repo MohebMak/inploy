@@ -12,7 +12,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="#">
-            <img src="images/icons/Icon-01.png" width="40" style="margin-top: -6px">
+            <img src="images/icons/Icon-01.png" width="40" style="padding-top: 6px">
         </a>
 
 
@@ -69,7 +69,7 @@
             width:200px !important;
 
         }
-      
+
 
     }
 

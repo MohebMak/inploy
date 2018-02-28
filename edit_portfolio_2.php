@@ -117,7 +117,8 @@
         <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
         <!--        </div>-->
       </div>
-      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: 0">
+      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: -11px;    left: 0;
+    width: 45px;">
     </div>
     <div class="col-lg-3">
       <div class="" style="position: relative;padding:10px">
@@ -141,7 +142,8 @@
         <!--          <a href="#0" class="card-link"><img src="images/icons/incon-20.png" width="25"><span class="portfolio_numbers">200</span></a>-->
         <!--        </div>-->
       </div>
-      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: 0">
+      <img src="images/icons/Icon-20.png" width="30" style="position: absolute;top: -11px;    left: 0;
+    width: 45px;">
     </div>
     <div class="col-lg-3">
       <div class="" style="position: relative;padding:10px">

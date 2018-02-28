@@ -7,6 +7,17 @@
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.min.css" />
   <title>Inploy</title>
 
   <!-- Bootstrap core CSS -->
@@ -144,7 +155,7 @@
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = "none"
           document.getElementById('budget').style.display = "none";
-          document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "block";
           document.getElementById('Inployees-selected').style.display = "block";
           document.getElementById('clients-selected').style.display = "none";
           document.getElementById('briefs-selected').style.display = "none";
@@ -206,6 +217,12 @@
 
     </script>
 
+<!-- <b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b> -->
+
+<script type="text/javascript">
+$("#ex2").slider({ id: "slider12b", min: 10, max: 10000, range: true, value: [10, 10000] });
+
+</script>
     <div class="row" style=" margin-top: 10px">
 
       <div class="col-lg-12">
