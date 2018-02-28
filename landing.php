@@ -176,7 +176,31 @@ $('#myCarousel').carousel({
   interval: false
 });
 </script>
+<div class="slider-client-freelancers">
 
+<button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
+<button onclick="function22()"id="slider-freelancers"type="button" name="button">Business</button>
+</div>
+<script type="text/javascript">
+function function11() {
+    document.getElementById('slider-client').style.color = "#ea4456";
+    document.getElementById('slider-client').style.boxShadow = "0px 0px 8px gray";
+
+    document.getElementById('slider-freelancers').style.color = "black";
+      document.getElementById('slider-freelancers').style.boxShadow = "none";
+}
+  function function22() {
+      document.getElementById('slider-client').style.color = "black";
+      document.getElementById('slider-client').style.boxShadow = "none";
+
+      document.getElementById('slider-freelancers').style.color = "#ea4456";
+      document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 8px gray";
+
+    }
+
+
+
+</script>
     <div class="row" style=" margin-top: 10px">
 
       <div class="col-lg-12">
