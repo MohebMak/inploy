@@ -18,7 +18,7 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto" style="margin-top: -6px">
-                <li class="nav-item">
+                <li class="nav-item nav-item1">
                     <form class="form-inline my-2 my-lg-0 search_form" >
                         <input class="form-control mr-sm-2 nav_bar_search" type="text" placeholder="Search" aria-label="Search" style="">
                     </form>
@@ -40,10 +40,10 @@
             </ul>
             <div class="nav-login">
 
-            <button class="btn nav_btn" data-toggle="modal" data-target="#login">
+            <button class="btn nav_btn nav_btn1" data-toggle="modal" data-target="#login">
                 Log in
             </button>
-            <button class="btn nav_btn" data-toggle="modal" data-target="#reg">
+            <button class="btn nav_btn nav_btn1" data-toggle="modal" data-target="#reg">
                 Sign up
             </button>
           </div>
