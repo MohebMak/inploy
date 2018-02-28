@@ -32,30 +32,42 @@
 
   <div class="row" style="margin-top: 0px">
 
-    <div class="col-md-3">
-    </div>
-
-    <div class="col-md-2">
-      <a href="jobs_archeived.php" class="btn btn_specific_selected">
-        Archived
-      </a>
-    </div>
 
 
-    <div class="col-md-2">
-      <a href="jobs_ongoing.php" class="btn btn_specific">
-        On Going
-      </a>
-    </div>
-    <div class="col-md-2">
-      <a href="jobs_applied.php" class="btn btn_specific">
-        Applied
-      </a>
+        <div class="slider-client-freelancers " id="Inployees-selected">
+
+        <a  href="jobs_archeived.php" onclick="function11()" id="slider-client" type="button" name="button">Freelancer</a>
+        <button href="jobs_applied.php" onclick="function22()"  id="slider-freelancers"type="button" name="button">Business</button>
+        </div>
+
+
     </div>
 
 
 
 
+    <script type="text/javascript">
+
+
+    function function11() {
+        document.getElementById('slider-client').style.color = "#ea4456";
+        document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
+
+        document.getElementById('slider-freelancers').style.color = "black";
+          document.getElementById('slider-freelancers').style.boxShadow = "none";
+    }
+      function function22() {
+          document.getElementById('slider-client').style.color = "black";
+          document.getElementById('slider-client').style.boxShadow = "none";
+
+          document.getElementById('slider-freelancers').style.color = "#ea4456";
+          document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
+
+        }
+
+
+
+    </script>
 
   </div>
 
@@ -439,7 +451,7 @@
   </div>
 
 
-  
+
 
   <?php include_once ('fotter.php');?>
 

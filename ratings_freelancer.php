@@ -56,7 +56,7 @@
             <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
             <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
             <div class="col-lg-4 margin-bottom">Ratings <img style="margin-left: 20px" src="images/icons/i-18.png" width="90"></div>
-          
+
 
 
 
@@ -88,14 +88,14 @@
 
             </div>
             <!--            Secondary comments-->
-            <div class="row" style="padding-bottom: 10px">
+            <div class="row" style="padding-bottom: 10px; width:100%">
               <div class="col-lg-3"></div>
               <div class="col-lg-2 text-center">
                 <img src="user.jpg" width="90" class="rounded-circle">
                 <p class="content_header">Mansour <img src="images/icons/Icon-01.png" width="15"></p>
               </div>
               <div class="col-lg-7">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                <p>Lo</p>
 
                 <input class="form-control mr-sm-2 reply_text" type="text" style="float: left">
                 <button class="btn btn_inploy" style="float: left">Reply</button>
