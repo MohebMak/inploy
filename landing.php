@@ -6,6 +6,12 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <title>Inploy</title>
 
@@ -114,7 +120,7 @@
           document.getElementById('freelancers').style.display = "none";
           document.getElementById('briefs').style.display = "none";
           document.getElementById('clients').style.display = ""
-          document.getElementById('Create_breif_btn').style.display = "none";
+          document.getElementById('Create_breif_btn').style.display = "block";
 
         }else if(id == "freelancers_btn"){
 
@@ -137,7 +143,40 @@
       }
     </script>
 
-    <p class="main_header" style="margin-top: 40px">Graphic Designers</p>
+
+  <div id="myCarousel" class="carousel slide" style="width:30%">
+     <!-- Indicators -->
+
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+       <div class="item active">
+         <p class="main_header" style="margin-top: 40px">Graphic Designers</p>
+
+       </div>
+
+       <div class="item">
+         <p class="main_header" style="margin-top: 40px">Developers</p>
+       </div>
+
+       <div class="item">
+         <p class="main_header" style="margin-top: 40px">Media</p>
+       </div>
+     </div>
+
+     <!-- Left and right controls -->
+
+     <a class="right carousel-control" href="#myCarousel" data-slide="next" style="     background: transparent;
+    top: 30px;">
+       <span class="glyphicon glyphicon-chevron-right"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+<script type="text/javascript">
+$('#myCarousel').carousel({
+  interval: false
+});
+</script>
+
     <div class="row" style=" margin-top: 10px">
 
       <div class="col-lg-12">

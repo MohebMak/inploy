@@ -663,7 +663,10 @@ margin-top: 20px ;
 
 
 }
-
+.btn
+{
+  font-size: 14px;  
+}
 .explore_card_2{
     box-shadow: 0px 0px 5px rgba(34,34,34,0.2);
     border: none;

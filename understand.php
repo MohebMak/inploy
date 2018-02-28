@@ -297,18 +297,18 @@ Feel Safe With Inploy
         </center>
       </div>
 
-      <div class="row" style="margin-top: 20px">
-        <div class="col-lg-3">
+      <div class="row col-lg-9" style="margin-top: 20px; margin:auto;">
+        <div class="col-lg-4">
 
           <center>
-            <img src="images/icons/understand/verified.png" width="70%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/verified.png" width="75%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
 
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <center>
-            <img src="images/icons/understand/rate2.png" width="70%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/rate2.png" width="75%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
 
 
@@ -316,9 +316,9 @@ Feel Safe With Inploy
           </center>
 
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <center>
-            <img src="images/icons/understand/grow-database.png" width="70%" style="margin-bottom: 10px">
+            <img src="images/icons/understand/grow-database.png" width="75%" style="margin-bottom: 10px">
             <p style="font-family: font2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t</p>
           </center>
         </div>
