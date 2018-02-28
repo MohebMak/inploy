@@ -8,9 +8,11 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <title>Inploy</title>
@@ -181,7 +183,13 @@ $('#myCarousel').carousel({
 <button onclick="function11()"id="slider-client" type="button" name="button">Freelancer</button>
 <button onclick="function22()"id="slider-freelancers"type="button" name="button">Business</button>
 </div>
+<input id="ex12b" type="text"/><br/>
+
 <script type="text/javascript">
+$("#ex12b").bootstrapSlider({
+  min: 0, max: 10,  value: [3, 7]
+});
+
 function function11() {
     document.getElementById('slider-client').style.color = "#ea4456";
     document.getElementById('slider-client').style.boxShadow = "0px 0px 8px gray";

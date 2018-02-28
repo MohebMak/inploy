@@ -61,7 +61,6 @@
 
       <p style="font-family: font2;">Category: <span style="font-family: font3">Graphic Design</span></p>
       <p class="content_header"style="font-family: font2;">Subcategories:</p>
-
       <div class="clearfix"></div>
       <small style="font-family: font2;color:#ea4456">each subcategory costs 20 EGP extra</small>
       <div id="add_user_input_div">
