@@ -86,7 +86,7 @@ Let's Talk
 
 
         <label style="float: none" class="label_settings">How would you like us to contact you back</label>
-      
+
 
         <div class="slider-client-freelancers3 " id="Inployees-selected">
 
@@ -100,6 +100,9 @@ Let's Talk
         function function11() {
             document.getElementById('slider-client').style.color = "#ea4456";
             document.getElementById('slider-client').style.boxShadow = "0px 0px 6px gray";
+            document.getElementById('email').style.display = "block";
+            document.getElementById('phone').style.display = "none";
+
 
             document.getElementById('slider-freelancers').style.color = "black";
               document.getElementById('slider-freelancers').style.boxShadow = "none";
@@ -107,6 +110,8 @@ Let's Talk
           function function22() {
               document.getElementById('slider-client').style.color = "black";
               document.getElementById('slider-client').style.boxShadow = "none";
+              document.getElementById('email').style.display = "none";
+              document.getElementById('phone').style.display = "block";
 
               document.getElementById('slider-freelancers').style.color = "#ea4456";
               document.getElementById('slider-freelancers').style.boxShadow = "0px 0px 6px gray";
@@ -116,6 +121,18 @@ Let's Talk
 
 
         </script>
+        <div id="email">
+
+        <label style="float: none;margin-top: 20px" class="label_settings">Email</label>
+        <div class="clearfix" style=""></div>
+        <input type="text" class="form-control" placeholder="sha3er@aucegypt.edu" style="max-width: 300px;float: left">
+        </div>
+        <div id="phone">
+        <label style="float: none;margin-top: 20px" class="label_settings">Phone Number</label>
+        <div class="clearfix" style=""></div>
+        <input type="text" class="form-control" placeholder="" style="max-width: 300px;float: left">
+</div>
+
         <div class="clearfix" style="padding: 20px"></div>
         <button class="btn btn-change_2" style="font-size: 15pt;padding: 10px 20px">Send</button>
 

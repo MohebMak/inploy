@@ -959,6 +959,10 @@ display: none;
     padding-left: 6px;
 
 }
+#phone
+{
+  display: none;
+}
 .glyphicon-chevron-right
 {
   color: black;
