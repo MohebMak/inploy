@@ -52,7 +52,12 @@
 
 
   </div>
-  <div id="new_project">
+  <div id="new_project_all">
+
+  <div class="new_project">
+
+    <label style="float: none; padding-top: 30px;" class="label_settings project">Project 1</label>
+
 
   <div class="row" style="margin-top: 20px">
 
@@ -169,7 +174,7 @@
       </div>
 
     </div>
-
+</div>
   </div>
   </div>
   <div class="clearfix" style="padding: 20px"></div>
@@ -184,12 +189,18 @@
 
 
 
+
   <br><br><br><br><br><br><br><br><br><br>
+
 <script>
+var i = 2;
 document.getElementById("add_project").onclick = function () {
 
-  {							$('#new_project').append($('#new_project')											.clone());
+  {
+      			$('#new_project_all').append($('.new_project').last()											.clone());
+            $('.new_project').last().find('.project').html('Project'+i);
 
+            i++;
    }
 };
 </script>
